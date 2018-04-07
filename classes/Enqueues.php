@@ -10,6 +10,6 @@ class Enqueues
 
         wp_enqueue_style('custom-styles', FL_CHILD_THEME_URL.'/dist/main.min.css');
 
-        wp_enqueue_script('custom-scripts', FL_CHILD_THEME_URL.'/dist/main.min.js', null, null, true);
+        wp_enqueue_script('custom-scripts', FL_CHILD_THEME_URL.'/dist/main.min.js', ['jquery'], null, true);
     }
 }

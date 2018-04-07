@@ -1,41 +1,13 @@
-#siteHeader {
+.custom-theme [data-type="header"] {
 
-}
-
-#logo {
-  img {
-    width: 100%;
-    max-width: 300px;
-  }
-  @media screen and (max-width: $media--small) {
-    width: 100% !important;
-  }
-}
-
-.site-header {
-  &__primary {
+  .fl-menu-mobile-toggle {
 
   }
-  &__secondary {
-    .fl-col-group {
-      @media screen and (max-width: $media--small) {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        justify-content: space-between;
-      }
-    }
-    li.menu-item {
-      a {
-        @include font-secondary;
-        text-transform: uppercase;
-        font-weight: 100;
-      }
-    }
-    .fl-menu-mobile-toggle {
-      width: 100%;
-      background-color: $brand-color--secondary;
-      color: white;
+
+  li.menu-item {
+
+    a {
+
     }
   }
 }

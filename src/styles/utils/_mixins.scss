@@ -1,7 +1,11 @@
 @mixin font-primary {
-  font-family: 'Open Sans', sans-serif;
+  // Should be the font used as default e.g.(like paragraph text).
+
+  // font-family: 'Open Sans', sans-serif;
 }
 
 @mixin font-secondary {
-  font-family: 'DIN', sans-serif;
+  // Should be the font used for headings or special areas.
+
+  // font-family: 'DIN', sans-serif;
 }
